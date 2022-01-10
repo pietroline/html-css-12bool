@@ -23,7 +23,42 @@
     margin: 20px 0px;
 }
 
-/* inizio css per bonus */
+/* inizio css per bonus 1 */
+    .debug .contenitore{
+        display: flex;
+        justify-content: center;
+        margin: 100px;
+    }
+
+    .parte_destra, .parte_sinistra{
+        width: 600px;
+    }
+
+    .quadrato{
+        height: 50px;
+    }
+
+    .white{
+        background-color: white;
+    }
+
+    .yellow{
+        background-color: yellow;
+        border: 1px solid lightgray;
+    }
+
+    .black{
+        background-color: black;
+        border: 1px solid lightgray;
+    }
+
+    .red{
+        background-color: red;
+        border: 1px solid lightgray;
+    }
+/* fine css per bonus 1 */
+
+/* inizio css per bonus 2 */
 .sottotitolo{
     font-weight: bold;
     font-size: 12px;
@@ -47,4 +82,4 @@
     justify-content: space-between;
     background-color: #006df4;
 }
-/* fine css per bonus */
+/* fine css per bonus 2 */
