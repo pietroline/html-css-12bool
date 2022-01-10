@@ -161,16 +161,4 @@
 .box.grow{
     flex-grow: 1;
 }
-
-.space-around{
-    flex-basis: 100%;
-    justify-content: space-around;
-    background-color: #006df4;
-}
-
-.space-between{
-    flex-basis: 100%;
-    justify-content: space-between;
-    background-color: #006df4;
-}
 /* fine css bonus  */
