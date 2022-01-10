@@ -78,7 +78,6 @@
     max-width: calc((100% / 12) * 12);
 }
 
-
 .col-offset-1{
     margin-left: calc((100% / 12) * 1);
 }
@@ -122,3 +121,56 @@
 .col-offset-11{
     margin-left: calc((100% / 12) * 11);
 }
+
+
+
+/* inizio css bonus */
+
+.flex{
+    display: flex;
+}
+
+.flex.start{
+    justify-content: flex-start;
+}
+
+.flex.center{
+    justify-content: center;
+}
+
+.flex.end{
+    justify-content: flex-end;
+}
+
+.big{
+    height: 100px;
+}
+
+.flex.top{
+    align-items: flex-start;
+}
+
+.flex.middle{
+    align-items: center;
+}
+
+.flex.bottom{
+    align-items: flex-end;
+}
+
+.box.grow{
+    flex-grow: 1;
+}
+
+.space-around{
+    flex-basis: 100%;
+    justify-content: space-around;
+    background-color: #006df4;
+}
+
+.space-between{
+    flex-basis: 100%;
+    justify-content: space-between;
+    background-color: #006df4;
+}
+/* fine css bonus  */

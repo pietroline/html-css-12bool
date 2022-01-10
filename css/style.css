@@ -3,14 +3,15 @@
 .debug .box{
     min-height: 50px;
     text-align: center;
-    background-color: #00f;
+    background-color: #006df4;
     color: #fff;
     padding: 10px;
     border: 1px solid #fff;
 }
 
 .debug .row .row .box{
-    background-color: green;
+    background-color: #00e06f;
+    border: 1px solid #006df4;
     font-size: 10px;
 }
 
@@ -21,3 +22,17 @@
 .section-2{
     margin: 20px 0px;
 }
+
+/* inizio css per bonus */
+.sottotitolo{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.box.justfy-content{
+    background-color: #00e06f;
+    border: 1px solid #00e06f;
+    font-size: 10px;
+    margin: 5px;
+}
+/* fine css per bonus */
