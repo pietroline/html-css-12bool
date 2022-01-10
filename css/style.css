@@ -11,3 +11,16 @@
     padding: 10px;
     border: 1px solid #fff;
 }
+
+.debug .row .row .box{
+    background-color: green;
+    font-size: 10px;
+}
+
+.titolo{
+    font-weight: bold;
+}
+
+.section-2{
+    margin: 20px 0px;
+}
